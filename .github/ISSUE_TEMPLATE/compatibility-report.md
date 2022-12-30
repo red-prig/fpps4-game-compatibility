@@ -13,6 +13,9 @@ assignees: ''
 ## Code
 CUSA
 
+## Game version
+1.00
+
 ## Used emulator's version
 red-prig/fpPS4@
 
