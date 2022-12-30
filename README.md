@@ -10,6 +10,7 @@ Anyone is free to update or share their results here, with the following require
 - If some game boots on earlier versions and does not boot (or some bugs was appeared) on newer - report last working version.
 - When game is crashes - submit function name where it was happened, like `nop nid:libkernel:C8E7C683F2356482:scePthreadRwlockattrInit`
 - When you update or add additional information in an issue, please reply to the issue indicating your changes.
+- Point a game's version - some games behaviors differently after updates. So you can try to update your game with patches, just mentiion it if somethings changes.
 - *Optionally*: submit `dump_sym.exe -i ebootname.bin -o sometextfile.txt` output here using details tag (it looks like spoiler), or use webservices like pastebin. You can compile dump_sym.exe by yourself.
 What files **ALLOWED** to submit - screenshots, log files (if you have it).
 What files are **RESTRICTED AND BANNED** - **ANY** copyrighted content like eboot.bin, sprx files, SDK leaked files, PKG files, homebrew applications made with official SDKs.
