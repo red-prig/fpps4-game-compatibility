@@ -41,7 +41,7 @@ body:
         - Nothing      
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: emulation-error
     attributes:
       label: Error
@@ -54,7 +54,14 @@ body:
       label: Description
       placeholder: ## Description
     validations:
-      required: true   
+      required: true
+  - type: textarea
+    id: used-hacks
+    attributes:
+      label: Used hacks
+      placeholder: ## Used hacks
+    validations:
+      required: false
   - type: textarea
     id: screenshot
     attributes:
