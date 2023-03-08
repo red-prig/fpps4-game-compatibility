@@ -55,28 +55,20 @@ body:
       placeholder: ## Description
     validations:
       required: true
-  - type: checkboxes
-    id: hacks
+  - type: dropdown
+    id: used-hacks
     attributes:
       label: Used hacks
-      description: Used hacks (avoid use them, except something not works and you're know what you're doing)
+      multiple: true
       options:
-        - label: DEPTH_DISABLE_HACK
-          required: false
-        - label: COMPUTE_DISABLE_HACK
-          required: false
-        - label: MEMORY_BOUND_HACK
-          required: false  
-        - label: IMAGE_TEST_HACK
-          required: false
-        - label: IMAGE_LOAD_HACK
-          required: false
-        - label: DISABLE_SRGB_HACK
-          required: false
-        - label: DISABLE_FMV_HACK 
-          required: false
-        - label: SKIP_UNKNOW_TILING
-          required: false
+        - DEPTH_DISABLE_HACK
+        - COMPUTE_DISABLE_HACK
+        - MEMORY_BOUND_HACK
+        - IMAGE_TEST_HACK
+        - IMAGE_LOAD_HACK
+        - DISABLE_SRGB_HACK
+        - DISABLE_FMV_HACK
+        - SKIP_UNKNOW_TILING
   - type: textarea
     id: screenshot
     attributes:
